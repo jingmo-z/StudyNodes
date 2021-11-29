@@ -16,9 +16,9 @@ public class HalfSearch {
         int l = 0, r = a.length, m;
         while (l <= r) {
             // 如果 l+r 超出int的范围，运算结果将为负数
-            m = (l + r) / 2;
+            //m = (l + r) / 2;
             // 解决方案 1：(l+r)/2  ==>  l-l/2+r/2  ==>  l+(r/2-l/2)  ==>   l+(r-l)/2
-            m = l + (r - l) / 2;
+            //m = l + (r - l) / 2;
             // 解决方案 2：使用位运算
             m = (l + r) >>> 1;
             if (a[m] == target) {
