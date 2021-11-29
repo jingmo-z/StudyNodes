@@ -8,11 +8,11 @@ public class HalfSearch {
     public static void main(String[] args) {
         int[] array = {1, 5, 8, 11, 19, 22, 31, 35, 40, 45, 48, 49, 50};
         int target = 48;
-        int index = halfSearch(array, target);
+        int index = binarySearch(array, target);
         System.out.println(index);
     }
 
-    private static int halfSearch(int[] a, int target) {
+    private static int binarySearch(int[] a, int target) {
         int l = 0, r = a.length, m;
         while (l <= r) {
             // 如果 l+r 超出int的范围，运算结果将为负数
