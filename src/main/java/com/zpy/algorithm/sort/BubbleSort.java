@@ -25,7 +25,7 @@ public class BubbleSort {
                 System.out.println("比较第" + (j + 1) + "次");
                 count++;
                 if (a[j] > a[j + 1]) {
-                    swap(a, j, j + 1);
+                    Util.swap(a, j, j + 1);
                     // 每次交换都记录下交换的索引
                     last = j;
                 }
@@ -52,7 +52,7 @@ public class BubbleSort {
                 count++;
                 System.out.println("比较第" + (j + 1) + "次");
                 if (a[j] > a[j + 1]) {
-                    swap(a, j, j + 1);
+                    Util.swap(a, j, j + 1);
                     flag = true;
                 }
             }
@@ -65,9 +65,5 @@ public class BubbleSort {
         System.out.println("基本算法一共交换了" + count + "次");
     }
 
-    private static void swap(int[] a, int i, int j) {
-        int t = a[i];
-        a[i] = a[j];
-        a[j] = t;
-    }
+
 }
