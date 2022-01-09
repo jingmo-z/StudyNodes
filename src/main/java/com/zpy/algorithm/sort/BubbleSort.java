@@ -1,5 +1,7 @@
 package com.zpy.algorithm.sort;
 
+import com.zpy.algorithm.utils.Util;
+
 import java.util.Arrays;
 
 /**
@@ -15,6 +17,13 @@ public class BubbleSort {
         bubbleLevel(a);
     }
 
+    /**
+     * 冒泡排序--优化
+     *
+     * @param a 数组
+     * @author zpy
+     * @since 2021/12/24 15:16
+     **/
     private static void bubbleLevel(int[] a) {
         int n = a.length - 1;
         int count = 0;
@@ -40,7 +49,13 @@ public class BubbleSort {
         System.out.println("优化算法一共交换了" + count + "次");
     }
 
-
+    /**
+     * 冒泡排序
+     *
+     * @param a 数组
+     * @author zpy
+     * @since 2021/12/24 15:16
+     **/
     private static void bubble(int[] a) {
         int count = 0;
         // 基本的冒泡排序

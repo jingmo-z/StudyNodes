@@ -12,6 +12,15 @@ public class HalfSearch {
         System.out.println(index);
     }
 
+    /**
+     * 折半查找
+     *
+     * @param a      有序的数组
+     * @param target 查找的值
+     * @return {@link int} 查找到的索引
+     * @author zpy
+     * @since 2021/12/24 15:10
+     **/
     private static int binarySearch(int[] a, int target) {
         int l = 0, r = a.length, m;
         while (l <= r) {
