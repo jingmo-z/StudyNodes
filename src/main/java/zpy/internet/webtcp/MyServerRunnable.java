@@ -1,4 +1,4 @@
-package com.zpy.internet.webtcp;
+package zpy.internet.webtcp;
 
 import java.io.IOException;
 import java.io.PrintStream;

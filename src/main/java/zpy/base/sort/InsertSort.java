@@ -1,4 +1,4 @@
-package com.zpy.algorithm.sort;
+package zpy.base.sort;
 
 import java.util.Arrays;
 

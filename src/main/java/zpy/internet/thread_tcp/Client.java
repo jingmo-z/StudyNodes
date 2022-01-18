@@ -1,4 +1,4 @@
-package com.zpy.internet.thread_tcp;
+package zpy.internet.thread_tcp;
 
 import java.io.IOException;
 import java.io.PrintStream;

@@ -1,4 +1,4 @@
-package com.zpy.collection;
+package zpy.base.map;
 
 import java.util.HashMap;
 import java.util.Iterator;

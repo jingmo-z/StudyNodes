@@ -1,4 +1,4 @@
-package com.zpy.internet.thread_tcp;
+package zpy.internet.thread_tcp;
 
 import java.net.ServerSocket;
 import java.net.Socket;
@@ -17,7 +17,7 @@ public class Server {
         try {
             //注册端口
             ServerSocket serverSocket = new ServerSocket(8888);
-            
+
             while (true) {
                 //等待服务端的请求，建立socket连接
                 Socket socket = serverSocket.accept();

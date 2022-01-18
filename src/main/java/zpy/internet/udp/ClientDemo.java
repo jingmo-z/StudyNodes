@@ -1,4 +1,4 @@
-package com.zpy.internet.udp;
+package zpy.internet.udp;
 
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;

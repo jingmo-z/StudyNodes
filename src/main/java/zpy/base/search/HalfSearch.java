@@ -1,4 +1,4 @@
-package com.zpy.algorithm.search;
+package zpy.base.search;
 
 /**
  * @author zpy

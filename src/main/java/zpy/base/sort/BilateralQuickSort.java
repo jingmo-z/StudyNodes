@@ -1,6 +1,6 @@
-package com.zpy.algorithm.sort;
+package zpy.base.sort;
 
-import com.zpy.algorithm.utils.Util;
+import zpy.base.utils.Util;
 
 import java.util.Arrays;
 

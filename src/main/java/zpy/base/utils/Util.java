@@ -1,4 +1,4 @@
-package com.zpy.algorithm.utils;
+package zpy.base.utils;
 
 /**
  * @author zpy

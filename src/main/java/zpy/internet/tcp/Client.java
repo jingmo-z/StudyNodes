@@ -1,4 +1,4 @@
-package com.zpy.internet.tcp;
+package zpy.internet.tcp;
 
 import java.io.*;
 import java.net.Socket;
